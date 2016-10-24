@@ -6,4 +6,4 @@
 #Black #000
 #White #FFF
 #Gray #CCC
-#Dark Gray #B5B5B5
+#Dark Gray #5E5E5E

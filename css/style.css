@@ -88,11 +88,8 @@ br{
 .herotext{
   font-size: 30px;
   font-weight: 100;
-  line-height: 25px;
   text-align: center;
-  padding-top: 250px;
-  padding-bottom: 200px;
-  /*margin: 250px;*/
+  padding: 250px;
 }
 
 .mainbox{
@@ -136,7 +133,8 @@ a.button{
 }
 
 .secondbox{
-  padding: 3%;
+  padding: 2.5%;
+  margin: .5%;
   float: left;
   width: 42%;
 }
@@ -151,6 +149,49 @@ a.button{
 
 @media(min-width: 768px) and (max-width: 978px){
   .hero{
+    height: 525px;
+  }
+  .herotext{
+    padding: 150px;
+  }
+}
+
+@media(min-width: 479px) and (max-width: 767px){
+  .hero{
     height: 400px;
+  }
+  .herotext{
+    font-size: 15px;
+    padding: 150px;
+  }
+  .mainbox{
+    clear: both;
+    float: none;
+    width: 98%;
+  }
+  .secondbox{
+    clear: both;
+    float: none;
+    width: 96%;
+  }
+}
+
+@media(min-width: 0px) and (max-width: 478px){
+  .hero{
+    height: 250px;
+  }
+  .herotext{
+    font-size: 12px;
+    padding: 125px;
+  }
+  .mainbox{
+    clear: both;
+    float: none;
+    width: 98%;
+  }
+  .secondbox{
+    clear: both;
+    float: none;
+    width: 96%;
   }
 }

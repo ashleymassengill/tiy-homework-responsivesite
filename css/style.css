@@ -70,9 +70,8 @@ br{
 footer{
   clear: both;
   background-color: black;
-  height: 40px;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 .nav1{
@@ -194,6 +193,6 @@ a.button{
   .secondbox{
     clear: both;
     float: none;
-    width: 96%;
+    width: 97%;
   }
 }

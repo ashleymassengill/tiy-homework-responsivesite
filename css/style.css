@@ -39,6 +39,10 @@ h5{
   font-size: 20px;
 }
 
+h5.trans{
+  color: rgba(255, 255, 255, .5);
+}
+
 table{
   border: 1% solid #5e5e5e;
   border-spacing: 0;
@@ -134,6 +138,7 @@ a.button{
 
 .secondbox{
   padding: 2.5%;
+  padding-bottom: 0;
   margin: .5%;
   float: left;
   width: 42%;

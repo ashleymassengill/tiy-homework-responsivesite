@@ -1,6 +1,13 @@
 *{
   font-family: Helvetica, Arial, sans-serif;
-  /*min-width: 979px;*/
+}
+
+header{
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px:
 }
 
 img{
@@ -44,7 +51,6 @@ h5.trans{
 }
 
 table{
-  border: 1% solid #5e5e5e;
   border-spacing: 0;
   border-collapse: collapse;
   text-align: center;
@@ -61,23 +67,17 @@ br{
   clear: both;
 }
 
-.nav{
-  color: #5e5e5e;
-  background-color: white;
-  width: 100%;
-  position: fixed;
-  top: 0px;
-  left: 0px:
+footer{
+  clear: both;
+  background-color: black;
+  height: 40px;
+  text-align: center;
+  padding: 20px;
 }
 
 .nav1{
   color: #5e5e5e;
   text-decoration: none;
-}
-
-.content{
-  max-width: 960px;
-  margin: 0 auto;
 }
 
 .hero{
@@ -94,6 +94,11 @@ br{
   font-weight: 100;
   text-align: center;
   padding: 250px;
+}
+
+.content{
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .mainbox{
@@ -124,6 +129,7 @@ br{
   color: black;
   text-decoration: none;
 }
+
 a.button{
   padding: 5px;
   padding-left: 10px;
@@ -137,19 +143,10 @@ a.button{
 }
 
 .secondbox{
-  padding: 2.5%;
-  padding-bottom: 0;
-  margin: .5%;
+  padding: 1.5%;
+  padding-bottom: 0%;
   float: left;
-  width: 42%;
-}
-
-.footer{
-  clear: both;
-  background-color: black;
-  height: 40px;
-  text-align: center;
-  padding: 20px;
+  width: 47%;
 }
 
 @media(min-width: 768px) and (max-width: 978px){
